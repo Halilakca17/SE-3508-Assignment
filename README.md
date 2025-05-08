@@ -54,7 +54,7 @@ The model was trained only to fine-tune the final classifier layer. Below are th
 ### Performance Evaluation
 Training and validation accuracies were tracked at the end of each epoch.
 
-![](Image/vggfeaturexreport.PNG)
+![](Image/vggfeatureexepoch.PNG)
 
 Using classification_report, precision, recall, and F1-score were measured for each class.
 
