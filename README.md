@@ -3,12 +3,12 @@
 This project was completed as part of the SE3508 Introduction to Artificial Intelligence course,
 instructed by Dr. Selim Yılmaz, Department of Software Engineering at Muğla Sıtkı Koçman University, 2025.
 
-https://drive.google.com/drive/folders/1IE106tw0q5qunMsAZtm0xWPPrUHE5l18?usp=sharing
+You can access saved models here : https://drive.google.com/drive/folders/1IE106tw0q5qunMsAZtm0xWPPrUHE5l18?usp=sharing
 
 
 # Flower Classification with CNN and VGG16 Models
 In this project, three different models were trained and compared to classify flower species using the Kaggle Flowers dataset:
-
+Dataset : https://www.kaggle.com/datasets/imsparsh/flowers-dataset
 Model #1: Custom CNN 
 Model #2: VGG16 - Feature Extractor
 Model #3: VGG16 - Fine-Tuning
