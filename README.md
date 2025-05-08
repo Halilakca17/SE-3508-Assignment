@@ -27,11 +27,11 @@ Data augmentation was considered as an alternative but was not used because it s
 ### Performance Evaluation
 Training and validation accuracies were tracked at the end of each epoch.
 
-![](Image/CNN3_2.png)
+![](Image/CNN3_2.PNG)
 
 Using classification_report, precision, recall, and F1-score were measured for each class.
 
-![](Image/CNN3.png)
+![](Image/CNN3.PNG)
 
 ### Feature Visualization
 To better understand the internal workings of the model, activation maps of the first, third, and fifth layers were extracted, inspired by the paper "Visualizing and Understanding Convolutional Networks."
@@ -54,11 +54,11 @@ The model was trained only to fine-tune the final classifier layer. Below are th
 ### Performance Evaluation
 Training and validation accuracies were tracked at the end of each epoch.
 
-![](Image/vggfeaturexreport.png)
+![](Image/vggfeaturexreport.PNG)
 
 Using classification_report, precision, recall, and F1-score were measured for each class.
 
-![](Image/vggfeaturexreport.png)
+![](Image/vggfeaturexreport.PNG)
 
 ## Model #3 - VGG16 - Fine-Tuning
 
@@ -71,11 +71,11 @@ I made the visualizations according to these layers because we were asked to vis
 ### Performance Evaluation
 Training and validation accuracies were tracked at the end of each epoch.
 
-![](Image/vggfinetuneepochı.png)
+![](Image/vggfinetuneepochı.PNG)
 
 Using classification_report, precision, recall, and F1-score were measured for each class.
 
-![](Image/vggfinetunereportı.png)
+![](Image/vggfinetunereportı.PNG)
 
 # Visualizations
 
@@ -85,12 +85,12 @@ Using classification_report, precision, recall, and F1-score were measured for e
 
 ### Model #3 - VGG16 - Fine-Tuning
 
-![Model 3 Visualization](Image/vgggörsel22.png)
+![Model 3 Visualization](Image/vgggörsel22.PNG)
 
 
 # Results
 
-![Results Table](Image/sonuclarson2.png)
+![Results Table](Image/sonuclarson2.PNG)
 
 **INFO:**  Custom CNN model shows the lowest performance with 75% accuracy. Although the training time is short, the test performance is low. Also, the difference between training and test accuracy indicates the possibility of overfitting. I tried many things to prevent this.
 Fine-tuned VGG16 model showed the highest performance with 92% accuracy and 0.97% training accuracy. The training time is long but the results are quite successful. This model has the best generalization ability on the dataset. VGG16 (Feature Extractor) model offers balanced performance in terms of training time and accuracy.
