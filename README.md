@@ -93,4 +93,4 @@ Using classification_report, precision, recall, and F1-score were measured for e
 ![Results Table](Image/sonuclarson2.PNG)
 
 **INFO:**  Custom CNN model shows the lowest performance with 75% accuracy. Although the training time is short, the test performance is low. Also, the difference between training and test accuracy indicates the possibility of overfitting. I tried many things to prevent this.
-Fine-tuned VGG16 model showed the highest performance with 92% accuracy and 0.97% training accuracy. The training time is long but the results are quite successful. This model has the best generalization ability on the dataset. VGG16 (Feature Extractor) model offers balanced performance in terms of training time and accuracy.
+Fine-tuned VGG16 model showed the highest performance with 91% accuracy and 0.99% training accuracy. The training time is long but the results are quite successful. This model has the best generalization ability on the dataset. VGG16 (Feature Extractor) model offers balanced performance in terms of training time and accuracy.
